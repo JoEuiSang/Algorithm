@@ -1,4 +1,4 @@
-package algorithm.백준;
+package algorithm.백준.벨만포드;
 
 import java.io.BufferedReader;
 import java.io.IOException;
