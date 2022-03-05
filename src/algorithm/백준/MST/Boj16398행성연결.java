@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 
 public class Boj16398행성연결 {
 	static int N, parent[], flow[][];
-	static long ans;
+	static long ans; // 입력이 1억까지 들어올수 있기때문에 long 타입
 	static ArrayList<Edge> edgeList = new ArrayList<>();
 
 	static class Edge implements Comparable<Edge> {
